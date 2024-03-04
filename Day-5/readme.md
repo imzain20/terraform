@@ -1,0 +1,2 @@
+# terraform Day-5
+It creates a VPC, a key pair for SSH, a public subnet, an internet gateway, a route table, a security group, and an EC2 instance associated with the public subnet and security group. Additionally, it  installs Nginx using remote-exec provisioners.
