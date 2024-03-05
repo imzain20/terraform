@@ -1,0 +1,1 @@
+The provided Terraform configuration files make an ec2 instance in eu-west-2 region. It defines variables for the EC2 AMI ID and instance types for different environments (developemtn and production). Using the ec2_instance module, it provisions EC2 instances dynamically selecting instance types based on the current Terraform workspace.
